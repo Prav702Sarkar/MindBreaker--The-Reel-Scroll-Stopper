@@ -1,0 +1,1 @@
+{"name":"mind-breaker","private":true,"dependencies":{"@clerk/nextjs":"^7.0.6","@prisma/client":"^7.5.0","prisma":"^7.5.0","svix":"^1.89.0"}}

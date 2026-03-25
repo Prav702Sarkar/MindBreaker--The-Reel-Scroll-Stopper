@@ -1,0 +1,139 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# API Keys & Secrets (if ever accidentally committed)
+GROQ_API_KEY
+ASI_API_KEY
+CLERK_SECRET_KEY
+.secrets/
+
+# Node.js / NPM
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python / Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+mindbreaker.db
+mindbreaker.sqlite
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build & Distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+.next/
+out/
+.vercel/
+
+# Extension Build Output (before dist)
+extension/dist/
+extension/src/**/*.js
+extension/src/**/*.jsx
+!extension/src/**/*.ts
+!extension/src/**/*.tsx
+
+# Frontend Build
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/coverage/
+
+# Backend Build
+backend/dist/
+backend/build/
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Editor Backups
+*.backup
+*.bak
+
+# System Files
+.env.*.swp
+.env.*.swo
+
+# Docker (if using)
+.dockerignore
+
+# Misc
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+.env.*.pem
